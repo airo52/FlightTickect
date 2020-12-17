@@ -1,0 +1,2 @@
+id::1::username::airotony8@gmail.com::lastname::jkkmm::flight::Kisumu::Origin::12345565::Depature::20/7/2019::Time::10:00Am
+id::0::username::airotony7@gmail.com::lastname::BEN::flight::Kisumu::Origin::12345565::Depature::20/7/2019::Time::10:00Am

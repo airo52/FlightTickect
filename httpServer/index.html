@@ -1,0 +1,87 @@
+
+<div class="container" style="margin-top: 2%;">
+    <div class="col-md-12 col-md-offset-3">
+        <div class="row">
+            <div id="logo" class="text-center">
+                <h1>FLIGHT BOOKING</h1><p>SYSTEM</p>
+            </div>
+            <div class="form">
+         <form>
+                <input class="form-control">
+                <input class="form-control">
+                <button class="btn btn-success">Search</button>
+         </form>
+                <div class="table-responsive-sm">
+                    <table class="table table-sm" id="myTable">
+                        <tr class="header">
+                            <th>Name</th>
+                            <th>FROM</th>
+                            <th>TO</th>
+                            <th>Time</th>
+                            <th>DEPATURE</th>
+                            <th>action</th>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div style="display:none;" id="booking">
+<div style="float:left">
+    <label>
+        username
+    </label>
+    <br>
+    <input id="username" placeholder="username">
+    <br>
+    <label>
+        LastName
+    </label>
+    <br>
+    <input id="last" placeholder="lastname">
+    <button id="send">send</button>
+</div>
+
+
+    <div style="float:left">
+        <table>
+            <tr>
+                <th>Flight</th>
+                <td id="flight"></td>
+            </tr>
+
+            <tr>
+                <th>Origin</th>
+                <td id="origin"></td>
+            </tr>
+
+            <tr>
+                <th>To</th>
+                <td id="To"></td>
+            </tr>
+
+            <tr>
+                <th>depature</th>
+                <td id="depature"></td>
+            </tr>
+
+            <tr>
+                <th>Time</th>
+                <td id="Time"></td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+
+
+
+
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+<script src="handle.js"></script>

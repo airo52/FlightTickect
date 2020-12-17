@@ -1,0 +1,76 @@
+<div id="Log" style="margin:60px auto;width:20%;">
+     <h2>Admin Login</h2>
+   <label>Username</label>
+    <br>
+    <input id="username" style="width:100%;height:30px" placeholder="username">
+    <br>
+    <label>Username</label>
+    <br>
+    <input id="password" style="width:100%;height:30px" type="password" placeholder="password"><br>
+    <br>
+    <button id="Login" style="width:100%;height:30px">Login</button>
+</div>
+
+<div style="display:none" id="pages">
+
+ <div>
+     <button id="AddFlights">AddFlights</button>
+     <button id="customers">customers</button>
+     <button id="Flights">Flights</button>
+
+ </div>
+
+    <div style="display:none" id="Flight">
+        <div class="table-responsive-sm">
+            <table class="table table-sm" id="myTable">
+                <tr class="header">
+                    <th>Name</th>
+                    <th>FROM</th>
+                    <th>TO</th>
+                    <th>Time</th>
+                    <th>DEPATURE</th>
+                    <th>action</th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div style="display:none" id="customer">
+
+        <div class="table-responsive-sm">
+            <table class="table table-sm" id="myTabCustomer">
+                <tr class="header">
+                    <th>Name</th>
+                    <th>FROM</th>
+                    <th>TO</th>
+                    <th>Time</th>
+                    <th>DEPATURE</th>
+                    <th>action</th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div style="display:none" id="add">
+        <label>Add fLights</label><br>
+        <input id="FlightNumber" placeholder="FlightNumber">
+        <br>
+        <label>Origin</label><br>
+        <input id="Origin" placeholder="Origin">
+        <br>
+        <label>Destination</label><br>
+        <input id="Destination" placeholder="Destination">
+        <br>
+        <label>Depature</label><br>
+        <input id="Depature" placeholder="Depature 20/7/2020">
+        <br>
+        <label>Time</label><br>
+        <input id="Time" placeholder="10:00A.M">
+        <br>
+        <button id="submit">Add</button>
+    </div>
+
+
+</div>
+<script src="jquery.js"></script>
+<script src="admin.js"></script>

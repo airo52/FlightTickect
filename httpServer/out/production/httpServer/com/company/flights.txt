@@ -1,0 +1,9 @@
+id::23::Number::axht6577::Origin::Nairobi::Destination::Paris::Depature::29/09/2020::Time::10:00Am
+id::25::Number::axh77::Origin::Nairobi::Destination::Paris::Depature::29/09/2020::Time::11:00P.M
+id::26::Number::axht6577::Origin::Nairobi::Destination::Paris::Depature::29/09/2020::Time::12
+id::27::Number::axh5ttgg77::Origin::Nairobi::Destination::Paris::Depature::29/09/2020::Time::12
+id::10::Number::axht6577::Origin::Nairobi::Destination::Paris::Depature::29/09/2020::Time::7:00
+id::13::Number::12345565::Origin::Kisumu::Destintion::Nairobi::Depature::20/7/2019::Time::10:00Am
+id::19::Number::08hy67889::Origin::Paris::Destination::England::Depature::20/07/2020::Time::10:00
+id::20::Number::08hy67877::Origin::USA::Destination::England::Depature::20/07/2020::Time::10:40pm
+id::22::Number::08hy67::Origin::USA::Destination::England::Depature::20/06/2020::Time::10:40pm
